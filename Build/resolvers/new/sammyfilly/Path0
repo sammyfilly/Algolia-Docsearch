@@ -1,0 +1,19 @@
+resolve '@docsearch/react' in '/vercel/path0/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchBar'
+🔍find Module : Error
+｛
+throw error
+error: return required solution 
+ resolvers: import path "resolve" '@docsearch/react' in vercel/path0/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchBar'
+*if resolver path0 Isn't found in code/docs 
+<html>
+DOCTYPE
+BUILD vercel PATH0 : export builder building path0 
+output: build new website 🕸 for partfinder find "path0"
+Can't resolve './dist/esm/DocSearchModal.js' in '/vercel/path0/packages/docsearch-react'
+🔍find Module : throw serach  newly built '@docsearch/css' in '/vercel/path0/packages/docsearch-react/style'
+  if errors : not found/resolved then build is successfully 
+ if otherwise: USE other ways to build such as @SEO , @AI 
+run : client build path0 
+ filter website : true
+ skip : exit with build 1 
+ run deploy: using nextjs
