@@ -4311,7 +4311,7 @@
     "@docusaurus/theme-search-algolia" "2.4.1"
     "@docusaurus/types" "2.4.1"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -6035,7 +6035,7 @@
     node-fetch "^2.6.1"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^17.0.0":
+"@octokit/rest@^17.11.0":
   version "17.11.2"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-17.11.2.tgz#f3dbd46f9f06361c646230fd0ef8598e59183ead"
   integrity sha512-4jTmn8WossTUaLfNDfXk4fVJgbz5JgZE8eCs4BvIb52lvIH8rpVMD1fgRCrHbSd6LRPE5JFZSfAEtszrOq3ZFQ==
@@ -11660,7 +11660,7 @@ dotenv@^7.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
   integrity sha512-M3NhsLbV1i6HuGzBUH8vXrtxOk+tWmzWKDMbAVSUp3Zsjm7ywFeuwrUXhmhQyRK1q5B5GGy7hcXPbj3bnfZg2g==
 
-dotenv@^8.1.0, dotenv@^8.2.0:
+dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
@@ -12296,11 +12296,6 @@ eslint@8.47.0:
     optionator "^0.9.3"
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
-
-esm@3.2.25:
-  version "3.2.25"
-  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
-  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
 espree@^9.6.0, espree@^9.6.1:
   version "9.6.1"
@@ -16774,7 +16769,7 @@ mime-types@2.1.18:
   dependencies:
     mime-db "~1.33.0"
 
-mime-types@^2.1.12, mime-types@^2.1.25, mime-types@^2.1.27, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@^2.1.27, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.29"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.29.tgz#1d4ab77da64b91f5f72489df29236563754bb1b2"
   integrity sha512-Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==
@@ -20026,6 +20021,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   dependencies:
     "@babel/runtime" "^7.10.3"
 
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
+
 react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
@@ -21263,24 +21266,23 @@ shelljs@^0.8.3:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shipjs-lib@0.24.4:
-  version "0.24.4"
-  resolved "https://registry.yarnpkg.com/shipjs-lib/-/shipjs-lib-0.24.4.tgz#b7a97ad0e2f286a9d2c2cf01defb4b0f47bc6da5"
-  integrity sha512-eAq2Ek5h/4dmZ7pksMxGnDbj26A9IFdC5YCmPQLRBPSokTy5WmVBfeeUUIlT/LOOnAvyYzvE22aUamh9ABq9Tg==
+shipjs-lib@0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/shipjs-lib/-/shipjs-lib-0.27.0.tgz#289f850ac28081612f670370ba669e1efa5c27f4"
+  integrity sha512-BLqiL4CqTTk6yj2hFOcIRzlGHLpSshPof9ldEx2HierdzeueDm/4Rd+RXdeL53EGYqT+HuqVIC5DYMLARPPJEQ==
   dependencies:
     deepmerge "^4.2.2"
-    dotenv "^8.1.0"
     parse-github-url "1.0.2"
     semver "6.3.0"
     shelljs "0.8.5"
 
-shipjs@0.24.4:
-  version "0.24.4"
-  resolved "https://registry.yarnpkg.com/shipjs/-/shipjs-0.24.4.tgz#ee791395a1a0198999be6282929f0934eb226440"
-  integrity sha512-fz0vgeiKZc1fp+UaWkBhhUa2Sq20jbwV7UsdrZ9Ry2DEVARutmrnJCRzDq8vFAgcyKJxr53Gyg/a6r0A6QBh0w==
+shipjs@0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/shipjs/-/shipjs-0.27.0.tgz#72c8b9a4c75fd28a4b717a3fb1f553f2bb77f728"
+  integrity sha512-4lbARswZR6ZaSvHsKfJcHpSZTHAum08lWx29aYvt48ytl3jIP2a3mu6m3QrH1N9wwiFrUgtM9eI8B14Cc0GSzA==
   dependencies:
     "@babel/runtime" "^7.6.3"
-    "@octokit/rest" "^17.0.0"
+    "@octokit/rest" "^17.11.0"
     "@slack/webhook" "^5.0.1"
     add-stream "^1.0.0"
     arg "4.1.3"
@@ -21292,16 +21294,14 @@ shipjs@0.24.4:
     deepmerge "^4.2.2"
     dotenv "^8.2.0"
     ejs "^3.0.0"
-    esm "3.2.25"
     globby "^10.0.1"
     inquirer "7.1.0"
-    mime-types "^2.1.25"
     mkdirp "^1.0.0"
     open "^7.0.0"
     prettier "^2.0.0"
     serialize-javascript "^3.0.0"
     shell-quote "^1.7.2"
-    shipjs-lib "0.24.4"
+    shipjs-lib "0.27.0"
     temp-write "4.0.0"
     tempfile "^3.0.0"
 
