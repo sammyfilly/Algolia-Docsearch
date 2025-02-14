@@ -12,32 +12,32 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.3.1.tgz#abfccb8ca78075a2b6187345c26243c1a0842f28"
   integrity sha512-/62yikz7NLScCGAAST5SHdnjaDJQBDq0M2muyRTpf2VQhw6StBg2ALiu73zSJQ4fMVLA+0uBhBHAle7Wg+2kSg==
 
-"@algolia/autocomplete-core@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.9.3.tgz#1d56482a768c33aae0868c8533049e02e8961be7"
-  integrity sha512-009HdfugtGCdC4JdXUbVJClA0q0zh24yyePn+KUGk3rP7j8FEe/m5Yo/z65gn6nP/cM39PxpzqKrL7A6fP6PPw==
+"@algolia/autocomplete-core@1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.18.1.tgz#7abafd393126c0c5491ced8498a493173b238abf"
+  integrity sha512-+lOAwRkvxTt24AXNu3pT0EfCEh1ZOQkKlrgFa0Ji2jxSbY2WW3gb1k39JBPyXcCLlivdxYPXREdg8ImAF2Nw9Q==
   dependencies:
-    "@algolia/autocomplete-plugin-algolia-insights" "1.9.3"
-    "@algolia/autocomplete-shared" "1.9.3"
+    "@algolia/autocomplete-plugin-algolia-insights" "1.18.1"
+    "@algolia/autocomplete-shared" "1.18.1"
 
-"@algolia/autocomplete-plugin-algolia-insights@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.9.3.tgz#9b7f8641052c8ead6d66c1623d444cbe19dde587"
-  integrity sha512-a/yTUkcO/Vyy+JffmAnTWbr4/90cLzw+CC3bRbhnULr/EM0fGNvM13oQQ14f2moLMcVDyAx/leczLlAOovhSZg==
+"@algolia/autocomplete-plugin-algolia-insights@1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.18.1.tgz#3227745d317f1fcf09e75df30606aff8bd275963"
+  integrity sha512-zrl5trCnSHXkBRZwo2VPw4fN5zT3DowgFR6O2Qh0gTni8HB+aQltJYVwBrFeTvZHHFKNY9Cua4Y1KNsYiJ9Rdw==
   dependencies:
-    "@algolia/autocomplete-shared" "1.9.3"
+    "@algolia/autocomplete-shared" "1.18.1"
 
-"@algolia/autocomplete-preset-algolia@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.9.3.tgz#64cca4a4304cfcad2cf730e83067e0c1b2f485da"
-  integrity sha512-d4qlt6YmrLMYy95n5TB52wtNDr6EgAIPH81dvvvW8UmuWRgxEtY0NJiPwl/h95JtG2vmRM804M0DSwMCNZlzRA==
+"@algolia/autocomplete-preset-algolia@1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.18.1.tgz#36fcbf6cbcf7e353613339a4fe015193417ef7be"
+  integrity sha512-ifZV6vfVE9IKNdIe2+JhaBfY78LtnWnYrOFaSxJ7F45ixumSsRw7jCDoHwRxemoceHZzDpaSykSJwcy3XkTswA==
   dependencies:
-    "@algolia/autocomplete-shared" "1.9.3"
+    "@algolia/autocomplete-shared" "1.18.1"
 
-"@algolia/autocomplete-shared@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.9.3.tgz#2e22e830d36f0a9cf2c0ccd3c7f6d59435b77dfa"
-  integrity sha512-Wnm9E4Ye6Rl6sTTqjoymD+l8DjSTHsHboVRYrKgEt8Q7UHm9nYbqhN/i0fhUYA3OAEH7WA8x3jfpnmJm3rKvaQ==
+"@algolia/autocomplete-shared@1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.18.1.tgz#18175fd76fa01b692bc44b8e6dc63bf68623d031"
+  integrity sha512-vMKFYX5+SX+kIaJSMXOtj6zcMBhAWNyQJkfMrsuK38iJRTwemR23nzUE8qd3rHfWh6Iqgj89vDkf/CuOXDYllA==
 
 "@algolia/cache-browser-local-storage@4.14.1":
   version "4.14.1"
@@ -4311,7 +4311,7 @@
     "@docusaurus/theme-search-algolia" "2.4.1"
     "@docusaurus/types" "2.4.1"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -20025,6 +20025,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
+
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
 
 react-refresh@^0.9.0:
   version "0.9.0"
